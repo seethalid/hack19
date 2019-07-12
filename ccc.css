@@ -1,0 +1,86 @@
+
+body{
+	font-family: 'Courier New', Courier, monospace;
+	background: url('https://s1.1zoom.me/big0/2/Coffee_Cappuccino_Cake_Cupcake_Grain_Cutting_board_525350_1280x852.jpg') no-repeat;
+	background-size: cover;
+}
+
+#main-container{
+	background-color: rgba(253,213,139,1), 60%);
+	background-image: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1556093266000/photosp/57ad6ef2-799e-4c06-9e10-41eee8520053/stock-photo-celebration-confetti-celebrate-celebrating-celebrations-blowing-confetti-new-years-confetti-throwing-confetti-rainbow-confetti-57ad6ef2-799e-4c06-9e10-41eee8520053.jpg);
+	
+	height: 550px;
+	width: 400px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 50px;
+	
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	
+	margin: 40px auto 0 ;
+}
+
+
+
+#calculator{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	
+	h1{
+		padding-top: 5%;
+		border-bottom: 2px solid lightgrey;
+	}
+	
+	form label{
+		display: block;
+		padding-top: 5%;
+		font-weight: bold;
+		margin: 10px;
+	}
+	
+	input{
+		margin-top: 2%;
+	}
+	
+	button{
+		background-color: #6c2726;
+		color: white;
+		border: none;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		width: 100%;
+		padding: 20px 30px;
+	}
+	
+	button:hover{
+		background: #4c2827;
+		border-bottom-color: #111;
+	}
+	
+	button:active{
+		position: relative;
+		top: 3px;
+	}
+}
+
+/*****
+totalTip
+******/ 
+#totalTip{
+	padding-top: 6%;
+	font-size: 2.8em;
+}
+
+#totalTip:before{
+	content: "Tip amount";
+	font-size: 0.3em;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+}
+
+#totalTip small{
+	display: block;
+	font-size: 0.4em;
+}
